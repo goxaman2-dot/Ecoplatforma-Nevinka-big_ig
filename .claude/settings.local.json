@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Claude_Preview__preview_start",
+      "Read(//c/Program Files/nodejs/**)",
+      "Bash(node -e \"require\\(''child_process''\\).execSync\\(''npm root -g'', {encoding:''utf8''}\\)\")",
+      "Read(//c/Program Files/nodejs/node_modules/npm/bin/**)",
+      "Bash(node -e \"console.log\\(process.execPath\\)\")",
+      "Bash(ls /c/Users/d_art/Ecoplatforma-Nevinka-big_ig/Ecoplatforma-Nevinka/node_modules/.bin/vite*)",
+      "Bash(git add:*)"
+    ]
+  }
+}
